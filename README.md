@@ -3,7 +3,7 @@
 * Return to 0 (X-Y plane): `G90 G0 X0 Y0`
 * Reset work offset G54 to 0 at current position: `G10 L20 P1 X0 Y0 Z0`
 
-# My xPro v2 settings
+# My xPro v2 settings (Grbl 1.1f)
 ```
 $0 = 10    (Step pulse time, microseconds)
 $1 = 255    (Step idle delay, milliseconds)
@@ -13,7 +13,7 @@ $4 = 0    (Invert step enable pin, boolean)
 $5 = 0    (Invert limit pins, boolean)
 $6 = 0    (Invert probe pin, boolean)
 $10 = 3    (Status report options, mask)
-$11 = 0.020    (Junction deviation, millimeters)
+$11 = 0.010    (Junction deviation, millimeters)
 $12 = 0.002    (Arc tolerance, millimeters)
 $13 = 0    (Report in inches, boolean)
 $20 = 1    (Soft limits enable, boolean)
